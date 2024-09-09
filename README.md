@@ -1,2 +1,5 @@
 # Live-Handwritten-Digit-Recognition-System
-This is the project created by me in it the model is been trained using MNIST dataset using CNN and then the model is live predicting the digits by capturing images from the screen only/
+This is the project created by me in it the model is been trained using MNIST dataset using CNN and then the model is live predicting the digits by capturing images from the screen only.
+Abstract:
+The project focuses on Handwritten Digit Recognition using live image processing techniques. The primary goal is to develop a system capable of recognizing handwritten digits by processing images in real-time. The project utilizes the MNIST dataset, which is a standard benchmark for handwritten digit classification.
+The data pre-processing steps include normalizing the images and reshaping them to fit the input requirements of a Convolutional Neural Network (CNN). The CNN architecture is designed with multiple layers, including convolutional layers, max-pooling layers, and dense layers with dropout for regularization. The model is trained using the Adam optimizer and categorical cross-entropy loss function, aiming to achieve high accuracy in digit classification. Then, the model is live predicting the digits by capturing images from the screen only and then will predict the digit. The accuracy of the model is 99.17%.
